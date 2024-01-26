@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src = "script.js"></script>
+    <form action="script.js" method ="post" enctype="multipart/form-data">
+
+        <label for="username">username:</label>
+        <input type="text" id="username" placeholder="Nago" required><br>
+
+        <label for="password">password:</label>
+        <input type="text" id="password" placeholder="pass1234" required><br>
+
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="Nago@gmail.com" required><br>
+
+        <label for="phone">phone:</label>
+        <input type="phone" id="phone" placeholder="60815523" required><br>
+
+        <label for="bday">date of birth:</label>
+        <input type="date" id="baday" required><br>
+
+        <label>gender:</label>
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender">
+
+        <select>
+            <option value="straight">straight</option>
+            <option value="gay">gay</option>
+            <option value="bi"> bi</option>
+        </select><br>
+
+        <label for="comments">additional remarks:</label>
+        <textarea id="comments"></textarea><br>
+
+        <label for="file">identification:</label>
+        <input type="file" id="file" required><br>
+
+        <label for = "tos"> I have read and agreed the 
+            <a href="sources/tos.html" target="_blank">
+                terms and services
+            </a>
+        </label>
+        <input type="checkbox" id="tos" required><br>
+
+        <input type="submit">
+
+    </form>
+</body>
+</html>

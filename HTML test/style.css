@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(72, 0, 173);
+    font-family: verdana, monospace;
+}
+#p1{
+    color: red;
+}
+#p2{
+    color: #FFD700;
+}
+#p3{
+    color: rgb(0, 238, 255);
+}
+#p4{
+    color: rgb(255, 0, 251);
+}
