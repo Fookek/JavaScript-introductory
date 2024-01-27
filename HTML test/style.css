@@ -1,6 +1,41 @@
+@font-face {
+    src: url(fonts/ArchitectsDaughter-Regular.ttf);
+    font-family: arch;
+}
+
 body{
     background-color: rgb(72, 0, 173);
-    font-family: verdana, monospace;
+    font-family: arch;
+}
+
+header{
+    border-style: solid;
+    border-radius: 100px;
+    border-color: cyan;
+    border-width: 5px;
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+}
+main{
+    
+    border-bottom: chocolate 3px dotted;
+    border-left: crimson 3px groove;
+    border-right: magenta 3px solid;
+    border-top: beige 3px dashed;
+    display: flow-root;
+}
+#h1{
+    color: white;
+    text-shadow: black 10px 10px;
+    font-size: 50pxpx;
+}
+#h2{
+    color: red;
+    text-shadow: black 2px 2px;
 }
 #p1{
     color: red;
@@ -13,4 +48,21 @@ body{
 }
 #p4{
     color: rgb(255, 0, 251);
+}
+.box{
+    border: #FFD700 solid;
+    border-width: 5px;
+    height: 200px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#img{
+    float: left;
+}
+#vid{
+    float: right;
 }
