@@ -1,0 +1,22 @@
+body{
+    font-family: verdana;
+    text-align: center;
+    transform: translateY(10em);
+}
+#enter{
+    font-size: 50px;
+    width: 150px;
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    transition: background-color 0.25s,color 0.25s;;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: rgb(58, 58, 58);
+    color: white;
+}

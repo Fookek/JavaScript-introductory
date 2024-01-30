@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(75, 75, 75);
+}
+#program{
+    margin-top:300px;
+}
+
+
+#numberbox{
+    font-size: 100px;
+    color: white;
+}
+
+#Cbuttons button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    transition: background-color 0.25s,color 0.25s;
+}
+
+#Cbuttons button:hover{
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
